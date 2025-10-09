@@ -1,0 +1,59 @@
+{
+  "translation": {
+    "navbar": {
+      "about": "Sobre",
+      "skills": "Habilidades",
+      "projects": "Projetos",
+      "contact": "Contato",
+      "home": "Início",
+      "aria_open_menu": "Abrir menu",
+      "aria_go_home": "Voltar para a página inicial"
+    },
+    "home": {
+      "greeting": "Olá, eu sou",
+      "name": "Vinicius Machak  ",
+      "title": "Desenvolvedor Full Stack",
+      "description": "🎓 Estudante de Análise e Desenvolvimento de Sistemas no IFBA.\n💻 Gosto de explorar novas tecnologias e construir projetos para aprimorar minhas habilidades.\n🚀 Sempre aprendendo e evoluindo com o tempo.",
+      "link_about": "Quem eu sou?",
+      "link_skills": "Quais tecnologias conheço?",
+      "link_projects": "O que já construi?",
+      "link_contact": "Como entrar em contato?",
+      "download_cv": "Baixar currículo"
+    },
+    "about": {
+      "title": "Sobre Mim",
+      "paragraph1": "Olá! Sou Vinicius Machak Cabral, tenho 20 anos e moro em Salvador/BA. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas no IFBA. Todos os dias, busco aprender novas tecnologias e desenvolver projetos que tenham valor.",
+      "paragraph2": "Sempre fui curioso para entender como os sistemas e aplicativos que usamos diariamente funcionam, tanto na parte visual como na lógica por trás dos sistemas, o que me levou ao mundo da programação. Atualmente, estou concentrado no desenvolvimento web full stack, com uma preferência pelo backend, onde posso lidar com as regras de negócio das aplicações.",
+      "paragraph3": "Um pouco mais sobre mim? Sou apaixonado por esportes e pratico sempre que possível. Gosto de ouvir Rock e R&B, além de explorar novas ideias e desafios. Sou curioso, determinado e gosto de aprender coisas novas.",
+      "alt_image": "Foto"
+    },
+    "skills": {
+      "title": "Habilidades"
+    },
+    "projects": {
+      "title": "Meus Projetos",
+      "play_video": "Reproduzir vídeo",
+      "project1": {
+        "title": "Plataforma para avaliar álbums e músicas",
+        "description": "SoundRate é um aplicativo web completo para descobrir, classificar e avaliar músicas"
+      },
+      "project2": {
+        "title": "Meu site pessoal",
+        "description": "Site pessoal que apresenta projetos, habilidades e informações sobre mim. Inclui temas claro/escuro e suporte multilíngue (EN/PT)."
+      }
+    },
+    "contact": {
+      "title": "Contato",
+      "intro": "Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para me contatar através do formulário abaixo ou por um dos seguintes canais:",
+      "form_name": "Nome",
+      "form_email": "Email",
+      "form_message": "Mensagem",
+      "form_button": "Enviar Mensagem",
+      "success_message": "Mensagem enviada com sucesso!",
+      "error_message": "Ocorreu um erro ao enviar a mensagem. Tente novamente."
+    },
+    "footer": {
+      "copyright": "© {{year}} Vinicius Machak Cabral. Todos os direitos reservados."
+    }
+  }
+}

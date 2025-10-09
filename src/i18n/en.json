@@ -1,0 +1,59 @@
+{
+  "translation": {
+    "navbar": {
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact",
+      "home": "Home",
+      "aria_open_menu": "Open menu",
+      "aria_go_home": "Go back to the homepage"
+    },
+    "home": {
+      "greeting": "Hello, I'm",
+      "name": "Vinicius Machak",
+      "title": "Full Stack Developer",
+      "description": "🎓 ADS student at IFBA.\n💻 I enjoy exploring new technologies and building projects to hone my skills.\n🚀 Always learning and evolving over time.",
+      "link_about": "Who am I?",
+      "link_skills": "What technologies do I know?",
+      "link_projects": "What have I already built?",
+      "link_contact": "How to contact?",
+      "download_cv": "Download curriculum"
+    },
+    "about": {
+      "title": "About Me",
+      "paragraph1": "Hello! I'm Vinicius Machak Cabral, 20 years old, and I live in Salvador, Bahia. I'm currently studying Analysis and Development of Systems at IFBA. Every day, I strive to learn new technologies and develop valuable projects.",
+      "paragraph2": "I've always been curious to understand how the systems and applications we use daily work, both their visual aspects and the logic behind them. This curiosity is what led me to the world of programming. Currently, I'm focused on full stack web development, with a preference for the backend, where I enjoy handling the business rules of applications.",
+      "paragraph3": "A little more about me? I'm passionate about sports and play whenever possible. I enjoy listening to rock and R&B, as well as exploring new ideas and challenges. I'm curious, determined, and enjoy learning new things.",
+      "alt_image": "Photo"
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "projects": {
+      "title": "My Projects",
+      "play_video": "Play video",
+      "project1": {
+        "title": "Platform for rating albums and songs",
+        "description": "SoundRate is a complete web application for discovering, rating and reviewing music."
+      },
+      "project2": {
+        "title": "My personal website",
+        "description": "Personal website showcasing projects, skills, and information about myself. Includes light/dark themes and multilingual support (EN/PT)."
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "intro": "I'm always open to new opportunities and collaborations. Feel free to contact me using the form below or through one of the following channels:",
+      "form_name": "Name",
+      "form_email": "Email",
+      "form_message": "Message",
+      "form_button": "Send Message",
+      "success_message": "Message sent successfully!",
+      "error_message": "An error occurred while sending the message. Please try again."
+    },
+    "footer": {
+      "copyright": "© {{year}} Vinicius Machak Cabral. All rights reserved."
+    }
+  }
+}
