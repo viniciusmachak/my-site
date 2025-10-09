@@ -1,0 +1,118 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--background-primary);
+  z-index: 1000;
+}
+
+.navItems {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 3rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-weight: 500;
+  transition: color 0.2s;
+  font-size: 1.1rem;
+}
+
+.navLink:hover {
+  color: var(--accent-color);
+}
+
+.homeLink {
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  transition: color 0.2s;
+}
+
+.homeLink:hover {
+  color: var(--accent-color);
+}
+
+.active {
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.menuButton {
+  position: absolute;
+  left: 1rem;
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  z-index: 1300;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -240px;
+  width: 230px;
+  height: 100vh;
+  background-color: var(--background-primary);
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 1.5rem;
+  transition: left 0.3s ease;
+  z-index: 1200;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebarLink {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  transition: color 0.2s;
+}
+
+.sidebarLink:hover {
+  color: var(--accent-color);
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1100;
+}
+
+@media (max-width: 920px) {
+  .navLinks {
+    display: none;
+  }
+
+  .menuButton {
+    display: block;
+  }
+
+  .navItems {
+    gap: 1rem;
+    justify-content: right;
+  }
+}
