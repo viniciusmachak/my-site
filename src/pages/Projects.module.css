@@ -1,0 +1,241 @@
+.projectsSection {
+  background-color: var(--background-primary);
+  min-height: calc(100vh - 80px - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: var(--text-primary);
+  position: relative;
+  display: inline-block;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.projectCard {
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projectCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.mediaContainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  background-color: #333;
+}
+
+.projectImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.3s, color 0.3s;
+  opacity: 0.9;
+}
+
+.playButton:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+  color: var(--accent-color);
+  opacity: 1;
+}
+
+.projectContent {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.projectContent h3 {
+  font-size: 1.8rem;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.projectContent p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  flex-grow: 1;
+  text-align: justify;
+}
+
+.projectTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.techIcon svg {
+  font-size: 1.8rem;
+  color: var(--text-secondary);
+  transition: transform 0.2s, color 0.2s;
+}
+
+.techIcon:hover svg {
+  transform: scale(1.2);
+  color: var(--accent-color);
+}
+
+.projectLinks {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  justify-content: flex-end;
+}
+
+.projectLinks a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--accent-color);
+  font-weight: 600;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.projectLinks a:hover {
+  color: var(--text-primary);
+  transform: translateY(-3px);
+}
+
+.videoModalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.videoModalContent {
+  position: relative;
+  width: 90%;
+  max-width: 900px;
+  height: 0;
+  padding-bottom: 50.625%;
+  background-color: black;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.videoModalContent iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.closeModalButton {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2.5rem;
+  cursor: pointer;
+  z-index: 2010;
+  transition: color 0.2s;
+}
+
+.closeModalButton:hover {
+  color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .projectsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .projectContent h3 {
+    font-size: 1.5rem;
+  }
+
+  .projectLinks {
+    justify-content: center;
+  }
+
+  .videoModalContent {
+    width: 95%;
+    padding-bottom: 53.333%;
+  }
+
+  .projectContent {
+    padding: 1.25rem;
+  }
+
+  .projectContent p {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+
+  .projectTags {
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .techIcon svg {
+    font-size: 1.5rem;
+  }
+}
