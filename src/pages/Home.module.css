@@ -1,0 +1,154 @@
+.homeSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.contentWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  max-width: 1000px;
+  width: 100%;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.textContainer {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.greeting {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.descriptionList {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 1.5rem 0;
+  text-align: justify;
+}
+
+.descriptionList li {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.cvButton {
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: var(--text-primary);
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.cvButton:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.navQuestions {
+  margin-top: 1.5rem;
+}
+
+.navQuestions a {
+  display: block;
+  font-size: 1.3rem;
+  color: var(--accent-color);
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  transition: transform 0.2s;
+  text-align: left;
+}
+
+.navQuestions a:hover {
+  transform: scale(1.02);
+  text-decoration: underline;
+}
+
+.imageContainer {
+  width: 280px;
+  height: 280px;
+  flex-shrink: 0;
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (max-width: 800px) {
+  .contentWrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .textContainer {
+    text-align: center;
+  }
+
+  .navQuestions a {
+    text-align: center;
+  }
+
+  .imageContainer {
+    order: -1;
+    width: 200px;
+    height: 200px;
+  }
+
+  .greeting {
+    font-size: 1rem;
+  }
+
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .descriptionList li {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .navQuestions a {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}
