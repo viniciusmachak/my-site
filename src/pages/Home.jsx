@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import styles from './Home.module.css';
-import profilePicture from '../assets/profile-pic.jpeg';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -44,7 +43,7 @@ const Home = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <img src={profilePicture} alt={t('home.name')} className={styles.profileImage} />
+          <img src="/assets/profile-pic.jpeg" alt={t('home.name')} className={styles.profileImage} />
         </motion.div>
 
       </motion.div>

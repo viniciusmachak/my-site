@@ -20,7 +20,7 @@ const projects = [
   {
     titleKey: 'projects.project1.title',
     descriptionKey: 'projects.project1.description',
-    image: 'src/assets/SoundRate-pic.jpeg',
+    image: '/assets/SoundRate-pic.jpeg',
     videoUrl: 'https://www.youtube.com/embed/kSSXmqqYHyU?si=-GJUdmueXAu2B5j1',
     tags: ['Spring Boot', 'Java', 'Angular', 'TypeScript', 'PostgreSQL', 'Docker'],
     github: 'https://github.com/viniciusmcabral/sound-rate.git',
@@ -29,7 +29,7 @@ const projects = [
   {
     titleKey: 'projects.project2.title',
     descriptionKey: 'projects.project2.description',
-    image: 'src/assets/MySite-pic.jpeg',
+    image: '/assets/MySite-pic.jpeg',
     videoUrl: '',
     tags: ['React', 'JavaScript'],
     github: 'https://github.com/viniciusmcabral/my-site.git',

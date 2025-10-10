@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import styles from './About.module.css';
-import profilePicture from '../assets/profile-pic2.jpeg';
 
 const About = () => {
   const { t } = useTranslation();
@@ -25,7 +24,7 @@ const About = () => {
           </div>
           
           <div className={styles.imageColumn}>
-            <img src={profilePicture} alt={t('about.alt_image')} className={styles.aboutImage} />
+            <img src="/assets/profile-pic2.jpeg" alt={t('about.alt_image')} className={styles.aboutImage} />
           </div>
         </div>
       </motion.div>
