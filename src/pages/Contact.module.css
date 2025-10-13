@@ -97,7 +97,7 @@
 .submitButton {
   padding: 1rem;
   background-color: var(--accent-color);
-  color: var(--text-primary);
+  color: white;
   border: none;
   border-radius: 6px;
   font-size: 1.1rem;

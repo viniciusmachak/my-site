@@ -21,7 +21,7 @@ const projects = [
     titleKey: 'projects.project1.title',
     descriptionKey: 'projects.project1.description',
     image: '/assets/SoundRate-pic.jpeg',
-    videoUrl: 'https://www.youtube.com/embed/kSSXmqqYHyU?si=-GJUdmueXAu2B5j1',
+    videoUrl: 'https://www.youtube.com/embed/kSSXmqqYHyU?si=-GJUdmueXAu2B5j1&autoplay=1',
     tags: ['Spring Boot', 'Java', 'Angular', 'TypeScript', 'PostgreSQL', 'Docker'],
     github: 'https://github.com/viniciusmcabral/sound-rate.git',
     liveDemo: 'https://soundrate-05gm.onrender.com/',

@@ -2,19 +2,23 @@
   display: flex;
   gap: 0.5rem;
   background-color: var(--background-primary);
-  padding: 0.25rem;
+  padding: 0.4rem;
   border-radius: 9999px;
 }
 
 .button {
   background-color: transparent;
   border: none;
-  padding: 0.25rem 0.75rem;
+  padding: 0.4rem 1rem;
   cursor: pointer;
   font-weight: bold;
+  font-size: 1.2rem;
   color: var(--text-secondary);
   border-radius: 9999px;
   transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button:hover {
@@ -23,5 +27,5 @@
 
 .active {
   background-color: var(--accent-color);
-  color: var(--text-primary);
+  color: white;
 }

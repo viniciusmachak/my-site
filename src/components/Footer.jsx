@@ -13,7 +13,7 @@ const Footer = () => {
           <FaLinkedin size={24} />
         </a>
 
-        <a href="https://github.com/viniciusmcabral" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <a href="https://github.com/viniciusmachak" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <FaGithub size={24} />
         </a>
 

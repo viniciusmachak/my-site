@@ -19,7 +19,7 @@ const Navbar = ({ currentTheme, toggleTheme }) => {
       <nav className={styles.navbar}>
         <div className={styles.navItems}>
           <button className={styles.menuButton} onClick={toggleSidebar} aria-label={t('navbar.aria_open_menu')}>
-            {isSidebarOpen ? <FiX size={24} /> : <FiMenu size={24} />}
+            {isSidebarOpen ? <FiX size={28} /> : <FiMenu size={28} />}
           </button>
 
           {location.pathname !== '/' && (
@@ -31,7 +31,7 @@ const Navbar = ({ currentTheme, toggleTheme }) => {
               aria-label={t('navbar.aria_go_home')}
               onClick={closeSidebar}
             >
-              <FiHome size={22} />
+              <FiHome size={26} />
             </NavLink>
           )}
 
@@ -60,7 +60,7 @@ const Navbar = ({ currentTheme, toggleTheme }) => {
 
       <div className={`${styles.sidebar} ${isSidebarOpen ? styles.open : ''}`}>
         <NavLink to="/" onClick={closeSidebar} className={styles.sidebarLink}>
-          <FiHome size={22} />
+          <FiHome size={28} />
         </NavLink>
 
         <NavLink to="/about" onClick={closeSidebar} className={styles.sidebarLink}>

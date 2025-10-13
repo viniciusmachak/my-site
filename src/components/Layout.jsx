@@ -7,11 +7,11 @@ const Layout = ({ currentTheme, toggleTheme }) => {
   return (
     <div className={styles.layoutContainer}>
       <Navbar currentTheme={currentTheme} toggleTheme={toggleTheme} />
-      
+
       <main className={styles.contentWrap}>
         <Outlet />
       </main>
-      
+
       <Footer />
     </div>
   );

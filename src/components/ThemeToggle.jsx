@@ -4,7 +4,7 @@ import styles from './ThemeToggle.module.css';
 const ThemeToggle = ({ currentTheme, toggleTheme }) => {
   return (
     <button className={styles.toggleButton} onClick={toggleTheme}>
-      {currentTheme === 'light' ? <FiMoon size={20} /> : <FiSun size={20} />}
+      {currentTheme === 'light' ? <FiMoon size={26} /> : <FiSun size={26} />}
     </button>
   );
 };

@@ -62,7 +62,7 @@
 .cvButton {
   display: inline-block;
   background-color: var(--accent-color);
-  color: var(--text-primary);
+  color: white;
   padding: 0.6rem 1.2rem;
   border-radius: 6px;
   text-decoration: none;
